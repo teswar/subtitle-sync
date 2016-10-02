@@ -32,5 +32,6 @@ textarea {
 }
 
 .content > div {
+	height: 100%;
 	max-width: 50%;
 }
