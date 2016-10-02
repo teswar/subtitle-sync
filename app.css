@@ -27,7 +27,10 @@ textarea {
 	text-align: right;
 }
 
-.content > div {
+.content {
 	height: 100%;
+}
+
+.content > div {
 	max-width: 50%;
 }
