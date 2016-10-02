@@ -1,0 +1,33 @@
+textarea {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+.row:not(:first-child) {
+	margin-top: 10px;
+}
+
+.column {
+	display: inline-block;
+	flex-grow: 1;
+}
+
+.column:first-child {
+	padding-right: 10px;
+}
+
+.column:not(:first-child) {
+	padding-left: 10px;
+	text-align: right;
+}
+
+.content > div {
+	height: 100%;
+	max-width: 50%;
+}
